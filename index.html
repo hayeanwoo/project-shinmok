@@ -8,14 +8,14 @@
       margin: 0;
       padding: 0;
       height: 100%;
-      overflow: auto;
-      background-color: #111; /* 어두운 배경 */
+      background-color: #111;
       display: flex;
       justify-content: center;
       align-items: center;
     }
 
     .grid-container {
+      position: relative;
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
@@ -25,19 +25,42 @@
       box-sizing: border-box;
     }
 
-    .grid-button {
-      border: none;
-      background-color: transparent;
-      padding: 0;
-      cursor: pointer;
+    .grid-item {
+      position: relative;
+      overflow: hidden;
+      border-radius: 12px;
     }
 
-    .grid-button img {
+    .grid-item img {
       width: 100%;
       height: 100%;
-      object-fit: contain; /* 이미지 비율 유지 + 잘림 없음 */
-      background-color: #222; /* 이미지 바깥 여백 배경 */
-      border-radius: 12px;
+      object-fit: contain;
+      filter: brightness(60%);
+      pointer-events: none; /* 클릭 방지 */
+    }
+
+    /* 중앙 버튼 스타일 */
+    .center-button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border: none;
+      background: transparent;
+      padding: 0;
+      cursor: pointer;
+      z-index: 10;
+    }
+
+    .center-button img {
+      width: 200px;
+      height: auto;
+      border-radius: 16px;
+      transition: transform 0.2s ease;
+    }
+
+    .center-button:hover img {
+      transform: scale(1.05);
     }
   </style>
 </head>
@@ -45,28 +68,25 @@
   <div class="grid-container">
     <!-- 좌상 -->
     <div class="grid-item">
-      <button class="grid-button" onclick="location.href='봄.html'">
-        <img src="봄.png" alt="봄 이야기">
-      </button>
+      <img src="봄.png" alt="봄 이야기">
     </div>
     <!-- 우상 -->
     <div class="grid-item">
-      <button class="grid-button" onclick="location.href='가을.html'">
-        <img src="가을.png" alt="가을 이야기">
-      </button>
+      <img src="가을.png" alt="가을 이야기">
     </div>
     <!-- 좌하 -->
     <div class="grid-item">
-      <button class="grid-button" onclick="location.href='여름가을테스트.html'">
-        <img src="여름.png" alt="여름 이야기">
-      </button>
+      <img src="여름.png" alt="여름 이야기">
     </div>
     <!-- 우하 -->
     <div class="grid-item">
-      <button class="grid-button" onclick="location.href='여름가을테스트.html'">
-        <img src="겨울.png" alt="겨울 이야기">
-      </button>
+      <img src="겨울.png" alt="겨울 이야기">
     </div>
+
+    <!-- 중앙 버튼 -->
+    <button class="center-button" onclick="location.href='중앙이야기.html'">
+      <img src="중앙버튼.png" alt="중앙 이야기 버튼">
+    </button>
   </div>
 </body>
 </html>
