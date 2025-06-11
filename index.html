@@ -12,81 +12,106 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      overflow: hidden;
+      font-family: sans-serif;
     }
 
-    .grid-container {
-      position: relative;
+    /* 시작 버튼 */
+    #start-screen {
+      position: absolute;
+      z-index: 2;
+    }
+
+    #start-screen button {
+      font-size: 24px;
+      padding: 16px 32px;
+      border: none;
+      border-radius: 12px;
+      background-color: #444;
+      color: white;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+
+    #start-screen button:hover {
+      transform: scale(1.05);
+    }
+
+    /* 계절 선택 화면 */
+    #choice-screen {
+      position: absolute;
+      width: 90vw;
+      height: 90vh;
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
       gap: 20px;
-      width: 90vw;
-      height: 90vh;
       box-sizing: border-box;
+      z-index: 1;
+      pointer-events: none; /* 처음엔 클릭 안 되게 */
+      opacity: 0; /* 처음엔 안 보이게 */
+      transition: opacity 0.6s ease;
+    }
+
+    #choice-screen.active {
+      pointer-events: auto; /* 클릭 가능하게 */
+      opacity: 1; /* 보이게 */
     }
 
     .grid-item {
-      position: relative;
-      overflow: hidden;
       border-radius: 12px;
+      overflow: hidden;
+      cursor: pointer;
     }
 
     .grid-item img {
       width: 100%;
       height: 100%;
       object-fit: contain;
-      filter: brightness(60%);
-      pointer-events: none; /* 클릭 방지 */
+      filter: brightness(40%); /* 처음엔 어둡게 */
+      transition: filter 0.6s ease, transform 0.2s ease;
     }
 
-    /* 중앙 버튼 스타일 */
-    .center-button {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      border: none;
-      background: transparent;
-      padding: 0;
-      cursor: pointer;
-      z-index: 10;
+    #choice-screen.active .grid-item img {
+      filter: brightness(100%); /* 밝게 전환 */
     }
 
-    .center-button img {
-      width: 200px;
-      height: auto;
-      border-radius: 16px;
-      transition: transform 0.2s ease;
-    }
-
-    .center-button:hover img {
+    .grid-item:hover img {
       transform: scale(1.05);
     }
   </style>
 </head>
 <body>
-  <div class="grid-container">
-    <!-- 좌상 -->
-    <div class="grid-item">
+  <!-- 시작 버튼 화면 -->
+  <div id="start-screen">
+    <button onclick="startExperience()">시작하기</button>
+  </div>
+
+  <!-- 계절 선택 화면 -->
+  <div id="choice-screen">
+    <div class="grid-item" onclick="location.href='봄.html'">
       <img src="봄.png" alt="봄 이야기">
     </div>
-    <!-- 우상 -->
-    <div class="grid-item">
+    <div class="grid-item" onclick="location.href='가을.html'">
       <img src="가을.png" alt="가을 이야기">
     </div>
-    <!-- 좌하 -->
-    <div class="grid-item">
+    <div class="grid-item" onclick="location.href='여름가을테스트.html'">
       <img src="여름.png" alt="여름 이야기">
     </div>
-    <!-- 우하 -->
-    <div class="grid-item">
+    <div class="grid-item" onclick="location.href='여름가을테스트.html'">
       <img src="겨울.png" alt="겨울 이야기">
     </div>
-
-    <!-- 중앙 버튼 -->
-    <button class="center-button" onclick="location.href='중앙이야기.html'">
-      <img src="중앙버튼.png" alt="중앙 이야기 버튼">
-    </button>
   </div>
+
+  <script>
+    function startExperience() {
+      // 시작 버튼 제거
+      document.getElementById('start-screen').style.display = 'none';
+
+      // 선택 화면 보이게 + 밝게
+      const choice = document.getElementById('choice-screen');
+      choice.classList.add('active');
+    }
+  </script>
 </body>
 </html>
