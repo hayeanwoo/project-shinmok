@@ -2,13 +2,13 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>신목 이야기 선택</title>
+  <title>신목 이야기</title>
   <style>
     html, body {
       margin: 0;
       padding: 0;
       height: 100%;
-      background-color: #111;
+      background-color: #fff0ff;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -16,26 +16,32 @@
       font-family: sans-serif;
     }
 
-    /* 시작 버튼 */
-    #start-screen {
+       #start-screen {
       position: absolute;
       z-index: 2;
     }
-
     #start-screen button {
-      font-size: 24px;
-      padding: 16px 32px;
-      border: none;
-      border-radius: 12px;
-      background-color: #444;
-      color: white;
-      cursor: pointer;
-      transition: transform 0.2s ease;
-    }
+  padding: 0;
+  border: none;
+  border-radius: 12px;
+  background: #fff0ff; /* 배경색 제거 */
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
 
-    #start-screen button:hover {
-      transform: scale(1.05);
-    }
+#start-screen button:hover {
+  transform: scale(1.05);
+}
+
+/* 이미지에 크기와 스타일 조정 */
+#start-screen button img {
+  width: 1200px;   /* 원하는 크기로 조절 */
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  pointer-events: none;
+}
+
 
     /* 계절 선택 화면 */
     #choice-screen {
@@ -83,10 +89,11 @@
 </head>
 <body>
   <!-- 시작 버튼 화면 -->
-  <div id="start-screen">
-   <button onclick="startExperience()">시작하기</button>
+<div id="start-screen">
+  <button id="start-button">
+    <img src="IMAGE_UI/start-button.png" alt="Start" />
   </button>
-  </div>
+</div>
 
   <!-- 계절 선택 화면 -->
   <div id="choice-screen">
@@ -105,14 +112,20 @@
   </div>
 
   <script>
-    function startExperience() {
-      // 시작 버튼 제거
-      document.getElementById('start-screen').style.display = 'none';
+   
+  function startExperience() {
+    // 시작 버튼 제거
+    document.getElementById('start-screen').style.display = 'none';
 
-      // 선택 화면 보이게 + 밝게
-      const choice = document.getElementById('choice-screen');
-      choice.classList.add('active');
-    }
+    // 선택 화면 보이게 + 밝게
+    const choice = document.getElementById('choice-screen');
+    choice.classList.add('active');
+  }
+
+  // ⭐ 버튼 클릭 시 함수 연결 (이게 빠져 있었음)
+  document.getElementById("start-button").addEventListener("click", startExperience);
+</script>
+
   </script>
 </body>
 </html>
