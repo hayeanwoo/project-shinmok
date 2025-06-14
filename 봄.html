@@ -63,30 +63,60 @@
 </head>
 <body>
   <div id="background"></div>
+
+ <!--  이미지 박스 추가 -->
+  <div id="scene-image" style="
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    max-width: 80%;
+    max-height: 50%;
+    z-index: 1;
+    display: none;
+  ">
+    <img id="scene-img" src="" style="width: auto; height: 520px; border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
+  </div>
+
+
   <div id="story-box"></div>
 
-  <script src="story_data_cleaned.js"></script>
+  <script src="story_data_봄.js"></script>
   <script>
     let currentScene = "제목 없는 구절";
 
-    function renderScene() {
-      const scene = story[currentScene];
-      const box = document.getElementById("story-box");
-      if (!scene) {
-        box.innerHTML = "<p>더 이상 진행할 수 없습니다.</p>";
-        return;
-      }
 
-      let html = `<p>${scene.text.replace(/\n/g, "<br>")}</p>`;
-      if (scene.choices && scene.choices.length > 0) {
-        html += '<div class="choices">';
-        scene.choices.forEach(choice => {
-          html += `<div class="choice" onclick="goToScene('${choice.next}')">${choice.label}</div>`;
-        });
-        html += '</div>';
-      }
-      box.innerHTML = html;
-    }
+    function renderScene() {
+  const scene = story[currentScene];
+  const box = document.getElementById("story-box");
+  const imageBox = document.getElementById("scene-image");
+  const imgTag = document.getElementById("scene-img");
+
+  if (!scene) {
+    box.innerHTML = "<p>더 이상 진행할 수 없습니다.</p>";
+    imageBox.style.display = "none";
+    return;
+  }
+
+  // 이미지 출력 처리
+  if (scene.image) {
+    imgTag.src = scene.image;
+    imageBox.style.display = "block";
+  } else {
+    imageBox.style.display = "none";
+  }
+
+  let html = `<p>${scene.text.replace(/\n/g, "<br>")}</p>`;
+  if (scene.choices && scene.choices.length > 0) {
+    html += '<div class="choices">';
+    scene.choices.forEach(choice => {
+      html += `<div class="choice" onclick="goToScene('${choice.next}')">${choice.label}</div>`;
+    });
+    html += '</div>';
+  }
+  box.innerHTML = html;
+}
+
 
     
 
