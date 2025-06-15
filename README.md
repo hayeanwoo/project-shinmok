@@ -8,6 +8,7 @@
 
 ## 📌 목표
 - 독립 배포 / itch.io 예정
+- https://hayeanwoo.itch.io/project-shinmok
 
 ## 게임 플레이
 
