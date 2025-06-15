@@ -33,11 +33,14 @@
     /* 텍스트 박스와 선택지 */
     #story-box {
       position: absolute;
-      bottom: 40px;
+      bottom: 5vh;
       left: 50%;
       transform: translateX(-50%);
       width: 90%;
       max-width: 1000px;
+       max-height: 40vh;   /* 원하는 최대 높이 */
+      overflow-y: auto;    /* 내용이 넘치면 세로 스크롤 생성 */
+
       background: rgba(255, 255, 255, 0.8);
       padding: 30px;
       border-radius: 20px;
@@ -75,7 +78,7 @@
     z-index: 1;
     display: none;
   ">
-    <img id="scene-img" src="" style="width: auto; height: 520px; border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
+    <img id="scene-img" src="" style="width: auto; max-width: 100vh; max-height: 45vh; height: 100%; border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
   </div>
 
 
