@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -64,7 +63,7 @@
 <body>
   <div id="background"></div>
 
- <!--  이미지 박스 추가 -->
+  <!-- 이미지 박스 -->
   <div id="scene-image" style="
     position: absolute;
     top: 10%;
@@ -78,60 +77,65 @@
     <img id="scene-img" src="" style="width: auto; height: 520px; border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
   </div>
 
-
   <div id="story-box"></div>
 
   <script src="story_data_봄.js"></script>
   <script>
     let currentScene = "제목 없는 구절";
-
+    let flags = { flag: false };
 
     function renderScene() {
-  const scene = story[currentScene];
-  const box = document.getElementById("story-box");
-  const imageBox = document.getElementById("scene-image");
-  const imgTag = document.getElementById("scene-img");
+      const scene = story[currentScene];
+      const box = document.getElementById("story-box");
+      const imageBox = document.getElementById("scene-image");
+      const imgTag = document.getElementById("scene-img");
 
-  if (!scene) {
-    box.innerHTML = "<p>더 이상 진행할 수 없습니다.</p>";
-    imageBox.style.display = "none";
-    return;
-  }
+      if (!scene) {
+        box.innerHTML = "<p>더 이상 진행할 수 없습니다.</p>";
+        imageBox.style.display = "none";
+        return;
+      }
 
-  // 이미지 출력 처리
-  if (scene.image) {
-    imgTag.src = scene.image;
-    imageBox.style.display = "block";
-  } else {
-    imageBox.style.display = "none";
-  }
+      // 이미지 출력 처리
+      if (scene.image) {
+        imgTag.src = scene.image;
+        imageBox.style.display = "block";
+      } else {
+        imageBox.style.display = "none";
+      }
 
-  let html = `<p>${scene.text.replace(/\n/g, "<br>")}</p>`;
-  if (scene.choices && scene.choices.length > 0) {
-    html += '<div class="choices">';
-    scene.choices.forEach(choice => {
-      html += `<div class="choice" onclick="goToScene('${choice.next}')">${choice.label}</div>`;
-    });
-    html += '</div>';
-  }
-  box.innerHTML = html;
-}
+      let html = `<p>${scene.text.replace(/\n/g, "<br>")}</p>`;
+      if (scene.choices && scene.choices.length > 0) {
+        html += '<div class="choices">';
+        scene.choices.forEach(choice => {
+          html += `<div class="choice" onclick='handleChoice(${JSON.stringify(choice)})'>${choice.label || "선택"} </div>`;
+        });
+        html += '</div>';
+      }
+      box.innerHTML = html;
+    }
 
+    function handleChoice(choice) {
+      if (choice.setFlag === "flag") {
+        flags.flag = true;
+        document.getElementById("background").style.backgroundImage = "url('IMAGE_basicSeason/spring2.png')";
+      }
 
-    
+      goToScene(choice.next);
+    }
 
-	function goToScene(id) {
-  if (id === "__END__") {
-    document.body.innerHTML = "<div style='background:black; color:white; font-size:24px; display:flex; align-items:center; justify-content:center; height:100vh;'>이야기가 끝났습니다.</div>";
-    return;
-  }
-  if (id === "__MENU__") {
-    location.href = "index.html";
-    return;
-  }
-  currentScene = id;
-  renderScene();
-}
+    function goToScene(id) {
+      if (id === "__END__") {
+        document.body.innerHTML = "<div style='background:black; color:white; font-size:24px; display:flex; align-items:center; justify-content:center; height:100vh;'>이야기가 끝났습니다.</div>";
+        return;
+      }
+      if (id === "__MENU__") {
+        location.href = "index.html";
+        return;
+      }
+      currentScene = id;
+      renderScene();
+    }
 
     renderScene();
   </script>
