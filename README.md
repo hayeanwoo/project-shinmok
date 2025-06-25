@@ -69,6 +69,16 @@ https://hayeanwoo.github.io/project-shinmok/
 
 ---
 
+## 💡 補足・今だからこその提案
+
+- 本作で重要な役割を果たす「当山木（당산나무）」は、韓国の伝統的な信仰対象であり、近年では Netflix アニメ『デーモンハンターズ』にも登場するなど、グローバルな注目が高まっています。
+
+- また、日本でも毎年夏には「オカルト・ホラー・郷愁系ストーリーゲーム」への関心が高まる傾向があり、本作はその季節的な雰囲気にも非常にマッチすると考えています。
+
+→ つまり、「今」だからこそ届けたい物語です。
+![넷플릭스 데몬헌터즈의 당산나무](tree-.png)
+---
+
 ## 🎥 concept Vedio
 ### summer
 [![당산나무: 컨셉 트레일러](https://img.youtube.com/vi/MFFuEb2yHuI/0.jpg)](https://www.youtube.com/watch?v=MFFuEb2yHuI)
