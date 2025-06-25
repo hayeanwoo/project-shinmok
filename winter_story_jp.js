@@ -1,6 +1,6 @@
 const story = {
   "場面1": {
-    "image": "IMAGE_character/ch_summer.png",
+    "image": "images/summer/ch_summer.png",
     "text": "妹は時々変わった考えをすることがあった。\n想像力が豊かな子だった。\n成人になったことをお祝いするメッセージを送ったが、その子からの返事がなかなか来なかった。\nそしてやっと返ってきた返事は、一通のメッセージだった。「しばらく連絡したくない。いつまでかは私にも分からない。」\n単純な言葉だったが、なぜか、その言葉がまるで。もしかすると一生、永遠に。連絡したくないということのように見えた。",
     "choices": [
       {
@@ -20,7 +20,7 @@ const story = {
     ]
   },
   "場面1-2": {
-    "image": "IMAGE_character/ch_winter.png",
+    "image": "images/winter/ch_winter.png",
     "text": "... ...\n... ...\nそうだからといって、亡くなったおばあちゃんが生き返るわけでもない。\n無駄に考えたところで気分が悪くなるだけだ。",
     "choices": [
       {
@@ -200,7 +200,7 @@ const story = {
     ]
   },
   "場面6": {
-    "image": "IMAGE_character/ch_summer.png",
+    "image": "images/summer/ch_summer.png",
     "text": "妹に連絡することにしたが、どのように言えばいいか分からず長い間悩んでいて、うとうと眠ってしまった。\n久しぶりに夢を見た。不思議なことに、私はほとんど見ないのに...\n世界中が白く染まっていた。すべて雪に覆われて、音も光もなく。\nすべてが一つの光だけで...",
     "choices": [
       {
@@ -219,7 +219,7 @@ const story = {
     ]
   },
   "場面6-2": {
-    "image": "IMAGE_character/ch_winter.png",
+    "image": "images/winter/ch_winter.png",
     "text": "私は走って行った。夢だからか、雪原なのに転ばなかった。\n雪の上を走り続けた。\n白い雪原は終わりがないのに、煙が立ち上る場所があった。\n白い煙が... 倒れた木から出ていた。",
     "choices": [
       {

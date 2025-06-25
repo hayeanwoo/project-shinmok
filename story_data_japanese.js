@@ -1,6 +1,6 @@
 const story = {
   "場面1": {
-      "image": "IMAGE_character/ch_summer_1.png",
+      "image": "images/summer/ch_summer_1.png",
     "text": "あの夏、おばあちゃんが亡くなった\n嵐が騒がしくも...村を覆った。\n子供の頃だったからか、私はよく幻を見た。\nそんな日はいつもおばあちゃんの懐に潜り込んでようやく眠りについたものだった。\nおばあちゃんが亡くなってしまったから、今度は怖い夢を見たり、何かを見たりしたら誰に話そう？",
     "choices": [
       {
@@ -246,7 +246,7 @@ const story = {
   },
   "場面5-1": {
     
-      "image": "IMAGE_character/ch_winter_1.png",
+      "image": "images/winter/ch_winter_1.png",
     "text": "びしょ濡れのままお姉ちゃんが泣いていた。\n「ずっと探し回ったじゃない。列の最後にいるだろうと思ったのにいなくて、\n誰かが木の下にいるのを見たと言うので行ってみたらそこにもいなくて。\nしばらく探し回ったのよ。家に帰るなら、家に帰るって！\n誰かにでも一言言うか...\"\n",
     "choices": [
       {
@@ -256,7 +256,7 @@ const story = {
     ]
   },
   "場面5-2": {
-      "image": "IMAGE_character/ch_winter_1.png",
+      "image": "images/winter/ch_winter_1.png",
     "text": "「...雨が降ったから。家に来たの。」\n「一言くらい言わなきゃ。私は、私はあなたが...」\n「雨に濡れて、眠くなったの。」\n「あなたがいなくなったら、あなたまでいなくなったら、私は...」",
     "choices": [
       {
@@ -300,7 +300,7 @@ const story = {
   },
   "場面5-5": {
     
-      "image": "IMAGE_character/ch_winter_1.png",
+      "image": "images/winter/ch_winter_1.png",
     "text": "たわごとだというように、また関心を引こうとしているというようにお姉ちゃんがうんざりしたように顔をしかめた。「私たちの村にあなたの知らない人がいる？」\n「...ある人が、遊びに来たか。それとも他の家の親戚かもしれないから。」\n「いない。いない！誰もいない。そうなら、この山奥に車でもあるでしょう。車一台もなしに誰が来る？」\n「いえ、本当よ。本当なのに。雀舌茶もくれて...」",
     "choices": [
       {
@@ -310,7 +310,7 @@ const story = {
     ]
   },
   "場面5-6": {
-      "image": "IMAGE_character/ch_winter_1.png",
+      "image": "images/winter/ch_winter_1.png",
     "text": "お姉ちゃんの顔がかなり切実に見えて、結局口を閉じるしかなかった。「ごめん。全部嘘よ。」\n「...そう、大丈夫。大丈夫よソハ。」\n\n怒りを収めたお姉ちゃんがまた私をぎゅっと抱きしめた。",
     "choices": [
       {
@@ -366,7 +366,7 @@ const story = {
     ]
   },
   "場面6-2": {
-      "image": "IMAGE_character/ch_winter.png",
+      "image": "images/winter/ch_winter.png",
     "text": "そう、決心した。ただ永遠にではない。\n私が私の目に見えるものが何なのか、私が経験したことが何なのか本当に分かるまで。\nそして、いつか、それをお姉ちゃんにも話すことができる時まで...",
     "choices": [
       {
@@ -376,7 +376,7 @@ const story = {
     ]
   },
   "場面6-3": {
-    "image": "IMAGE_character/ch_summer.png",
+    "image": "images/summer/ch_summer.png",
     "text": "そうだからといってお姉ちゃんが嫌いなわけではない。\n永遠の別れでもない。\nただ私のために、お互いのために。\n\n私は私を解明しなければならないのだ。",
     "choices": [
       {

@@ -2,6 +2,8 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+
   <meta charset="UTF-8">
   <title>선택형 이야기</title>
   <style>
@@ -12,23 +14,27 @@
     }
 
     body {
-      font-family: 'YoonA 방울방울해', sans-serif;
+      font-family: 'Zen Maru Gothic', sans-serif;
       overflow: hidden;
       height: 100vh;
       width: 100vw;
       position: relative;
     }
 
-    /* 배경 이미지 고정 */
-    #background {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      background: url('IMAGE_basicSeason/summer.png') no-repeat center center / cover;
-      z-index: -1;
-    }
+   #background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #2f3e2e; /* 빈 공간에 들어갈 배경색 */
+  background-image: url('images/summer/summer.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain; /* 👈 이미지 늘리되 비율 유지 */
+  z-index: -1;
+}
+
 
     /* 텍스트 박스와 선택지 */
     #story-box {
@@ -54,7 +60,7 @@
     }
 
     .choice {
-      color: #0079dd;
+      color: #0259a0;
       cursor: pointer;
       margin-bottom: 10px;
     }
@@ -84,9 +90,9 @@
 
   <div id="story-box"></div>
 
-  <script src="story_data_여름.js"></script>
+  <script src="story_data_japanese.js"></script>
   <script>
-    let currentScene = "장면1";
+    let currentScene = "場面1";
 
 
     function renderScene() {
