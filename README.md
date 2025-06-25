@@ -47,7 +47,7 @@
 
 ## 🧪デモ版
 
-※ デモリンクまたは実行案内予定
+https://hayeanwoo.github.io/project-shinmok/
 
 ---
 
