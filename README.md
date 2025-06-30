@@ -1,6 +1,7 @@
 # 🎮インディーズゲーム企画書  
 ## 『唐山の木:記憶との和解』  
-### *Korean Traditional Occult: Reconciliation with Memories*
+### *Korean Traditional Occult
+### Dang Shan Namu : Reconciliation with Memories*
 
 ---
 
@@ -71,7 +72,7 @@ https://hayeanwoo.github.io/project-shinmok/
 
 ## 💡 補足・今だからこその提案
 
-- 本作で重要な役割を果たす「当山木（당산나무）」は、韓国の伝統的な信仰対象であり、近年では Netflix アニメ『デーモンハンターズ』にも登場するなど、グローバルな注目が高まっています。
+- 本作で重要な役割を果たす「当山木（당산나무）」は、韓国の伝統的な信仰対象であり、近年では Netflix アニメ『K-POP デーモンハンターズ』にも登場するなど、グローバルな注目が高まっています。
 
 - また、日本でも毎年夏には「オカルト・ホラー・郷愁系ストーリーゲーム」への関心が高まる傾向があり、本作はその季節的な雰囲気にも非常にマッチすると考えています。
 
