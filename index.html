@@ -2,13 +2,13 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>신목 이야기</title>
+  <title>DANGSAN NAMU</title>
   <style>
     html, body {
       margin: 0;
       padding: 0;
       height: 100%;
-      background-color: #fff0ff;
+      background-color: #83928f;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -24,7 +24,7 @@
   padding: 0;
   border: none;
   border-radius: 12px;
-  background: #fff0ff; /* 배경색 제거 */
+  background: #ffffff; /* 배경색 제거 */
   cursor: pointer;
   transition: transform 0.2s ease;
 }
@@ -50,7 +50,7 @@
       height: 90vh;
       display: grid;
       grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
+      grid-template-rows: 1fr;
       gap: 20px;
       box-sizing: border-box;
       z-index: 1;
@@ -68,7 +68,10 @@
       border-radius: 12px;
       overflow: hidden;
       cursor: pointer;
+      /*background-color: #ffffff; /* ✅ 흰 배경 추가 */
     }
+
+
 
     .grid-item img {
       width: 100%;
@@ -91,17 +94,17 @@
   <!-- 시작 버튼 화면 -->
 <div id="start-screen">
   <button id="start-button">
-    <img src="IMAGE_UI/start-button.png" alt="Start" />
+    <img src="images/start-button.png" alt="Start" />
   </button>
 </div>
 
   <!-- 계절 선택 화면 -->
   <div id="choice-screen">
     <div class="grid-item" onclick="location.href='여름.html'">
-      <img src="IMAGE_basicSeason/summer.png" alt="여름 이야기">
+      <img src="images/summer/summer.png" alt="여름 이야기">
     </div>
     <div class="grid-item" onclick="location.href='겨울.html'">
-      <img src="IMAGE_basicSeason/winter.png" alt="겨울 이야기">
+      <img src="images/winter/winter.png" alt="겨울 이야기">
     </div>
   </div>
 
@@ -123,4 +126,3 @@
   </script>
 </body>
 </html>
-
