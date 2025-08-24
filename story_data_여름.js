@@ -1,406 +1,387 @@
 const story = {
-  "장면1": {
-      "image": "IMAGE_character/ch_summer_1.png",
-    "text": "그해 여름, 할머니가 돌아가셨다\n폭풍우가 요란스럽게도... 마을을 뒤덮었다. \n어린 시절이라 그런지, 나는 헛것을 자주 봤다.\n그런 날이면 늘 할머니의 품에 파고들며 겨우 잠에 들곤 했었는데.\n할머니가 돌아가시니 이제는 무서운 꿈을 꾸거나, 무언가 보고 누구에게 말하지?",
+  "scene1": {
+    "image": "IMAGE_character/ch_summer_1.png",
+    "text": "That summer, grandmother passed away.\nA storm loudly... covered the village.\nMaybe because I was young, I often saw illusions.\nOn such days, I would always burrow into grandmother's arms and barely fall asleep.\nBut now that grandmother is gone, when I have scary dreams or see something, who do I tell?",
     "choices": [
       {
-        "label": "절망이 먼저였다.",
-        "next": "장면2"
+        "label": "Despair came first.",
+        "next": "scene2"
       }
     ]
   },
-  "장면2": {
-     "image": "images/summer/crying-girl.png",
-    "text": "비가 쏟아지고, 나는 집에 있지 않았다. 집 구석에서 무언가 무서운 걸 봤다.\n언니는 장례식 행렬을 따라갔다. 하지만 나는 가지 않았다. 무서웠다.\n언니는 울지 않았다. 사람들은 전부 진지했다. \n보호자가 없는 우리의 행방이 어디로 갈지, 아무도 몰랐다.\n그리고 언니는 그것을 두려워하고 있었다.\n거기에, 내가 본 것들에 대해 말할 기회 따윈 없는 거다.",
-    "choices": [
-      {
-        "label": "하지만 분명 거기에...",
-        "next": "장면2-1"
-      }
-    ]
-  },
-  "장면2-1": {
+  "scene2": {
     "image": "images/summer/crying-girl.png",
-    "text": "얘, 혼자 여기서 뭐 하고 있는 거니?\n비에 쫄딱 젖어서는... 언니는 어디다 두고?\"\n\"... 할머니 따라 갔어요.\"\n\"저런, 지금은 혼자구?\"\n\"네.\"\n\"어떡해. 이렇게나 젖어서는... 얘, 우리 집에 가자.\"\n\"... 여기가 좋아요.\"\n\"이 큰 나무 아래에서 왜? 비도 못 피하는데.\"",
+    "text": "Rain was pouring down, and I wasn't at home. I saw something scary in the corner of the house.\nSister followed the funeral procession. But I didn't go. I was scared.\nSister didn't cry. Everyone was serious.\nNo one knew where we would go without a guardian.\nAnd sister was afraid of that.\nThere was no chance to talk about the things I saw.",
     "choices": [
       {
-        "label": "\"그냥 여기가 좋아요.\"",
-        "next": "장면2-2"
+        "label": "But surely there was something there...",
+        "next": "scene2-1"
       }
     ]
   },
-  "장면2-2": {
+  "scene2-1": {
     "image": "images/summer/crying-girl.png",
-    "text": "\"그럼 잠시 여기서 기다려. 걱정이 돼서 원.\"\n말을 건 아주머니는 떠났다. \n모두가 장례식 행렬을 따라간 건 아니었구나. \n저와 같은 사람이 있단 걸 아니 조금은 안심이 되었다.",
+    "text": "\"Hey, what are you doing here alone?\nSoaking wet in the rain... Where did you leave your sister?\"\n\"... She went to follow grandmother.\"\n\"Oh my, you're alone now?\"\n\"Yes.\"\n\"What should we do? You're so wet... Hey, let's go to my house.\"\n\"... I like it here.\"\n\"Why under this big tree? You can't even avoid the rain.\"",
     "choices": [
       {
-        "label": "아주머니는 곧 돌아왔다.",
-        "next": "장면2-3"
+        "label": "\"I just like it here.\"",
+        "next": "scene2-2"
       }
     ]
   },
-  "장면2-3": {
+  "scene2-2": {
+    "image": "images/summer/crying-girl.png",
+    "text": "\"Then wait here for a moment. I'm worried.\"\nThe lady who spoke to me left.\nNot everyone followed the funeral procession.\nKnowing there was someone like me gave me a little comfort.",
+    "choices": [
+      {
+        "label": "The lady soon returned.",
+        "next": "scene2-3"
+      }
+    ]
+  },
+  "scene2-3": {
     "image": "images/winter/pot-of-tea.png",
-    "text": "\"우리 집에서 만든 차야. 어때?\"\n그녀는 보온병과 함께 돌아왔다. \n뚜껑을 열어 살짝 차를 따라주었는데, 향이 아주 좋았다. \n\"너희 집에서도 마셨지? 할머니가 솜씨가 좋았어. 작설차라는 거야. 알아?\"\n알고 있었다. 할머니가 옛날에 자주 만들었다고 한다.\n찻잎을 짓이겨야 하는데, 손목이 아파서 못하겠다며 요 몇년간은 하지 않으셨다.",
+    "text": "\"It's tea made at my house. How is it?\"\nShe came back with a thermos.\nShe opened the lid and poured me some tea, and it smelled very good.\n\"You drank this at your house too, right? Your grandmother was skillful. It's called jakseol tea. Do you know?\"\nI knew. Grandmother used to make it often long ago.\nYou have to crush the tea leaves, but she said her wrists hurt and she hadn't done it for several years.",
     "choices": [
       {
-        "label": "감사합니다.",
-        "next": "장면2-4"
+        "label": "Thank you.",
+        "next": "scene2-4"
       }
     ]
   },
-  "장면2-4": {
+  "scene2-4": {
     "image": "images/winter/pot-of-tea.png",
-    "text": "따뜻한 차를 마시니 몸이 따뜻해졌다.\n마음도 차분해졌다. 훌쩍이는 코를 쓱 닦으면서 푹 숙이던 고개를 슬쩍 들어올렸다. \n아주머니가 머리를 꾹꾹 누르면서 만져주셨다.",
+    "text": "Drinking the warm tea warmed my body.\nMy heart also became calm. I wiped my sniffling nose and slightly lifted my head that had been hanging low.\nThe lady gently pressed and patted my head.",
     "choices": [
       {
-        "label": "좀 있다가 집에 가. 무서워서 안 들어가는 게 말이니? 너희 집인데.",
-        "next": "장면2-5"
+        "label": "\"Go home in a bit. Does it make sense not to go in because you're scared? It's your house.\"",
+        "next": "scene2-5"
       }
     ]
   },
-  "장면2-5": {
-    
+  "scene2-5": {
     "image": "images/winter/pot-of-tea.png",
-    "text": "\"... 이상한 거 봤단 말이에요.\"",
+    "text": "\"... I saw something strange.\"",
     "choices": [
       {
-        "label": "\"그냥 그림자야. 그림자. 괜찮아.\"",
-        "next": "장면2-6"
+        "label": "\"It's just a shadow. A shadow. It's okay.\"",
+        "next": "scene2-6"
       }
     ]
   },
-  "장면2-6": {
-    
+  "scene2-6": {
     "image": "images/winter/pot-of-tea.png",
-    "text": "\"무서운 건 진짜 질색인데...\"",
+    "text": "\"I really hate scary things...\"",
     "choices": [
       {
-        "label": "\"일어나면 집으로 가. 기다리고 있잖니.\"",
-        "next": "장면3"
+        "label": "\"Go home when you get up. Someone's waiting for you.\"",
+        "next": "scene3"
       }
     ]
   },
-  "장면3": {
+  "scene3": {
     "image": "images/summer/old-dark-house.png",
-    "text": "까마귀 우는 소리가 요란스레 울렸다. \n나는 화들짝 놀라 고개를 쳐들고 주위를 둘러보았다.\n아주머니는 없었다. 잠에 들었던 걸까, 내가?\n정말이지. 어안이 벙벙했다.",
+    "text": "The sound of crows cawing rang out loudly.\nI was startled and raised my head, looking around.\nThe lady wasn't there. Had I fallen asleep?\nReally, I was dumbfounded.",
     "choices": [
       {
-        "label": "까마귀가 다시 요란스레 운다. ",
-        "next": "장면3-1"
+        "label": "The crow caws loudly again.",
+        "next": "scene3-1"
       }
     ]
   },
-  "장면3-1": {
-    
+  "scene3-1": {
     "image": "images/summer/old-dark-house.png",
-   // "image": "images/summer/view-of-town.png",
-    "text": "서둘러 일어나 주위를 둘러보다가, 걸음을 옮겼다.\n처음에는 걷다가 나중에는 뛰었다. 빗줄기를 뚫고 거리를 지나가는데,\n사람들은 죄 장례식 행렬을 따라갔는데 구석구석 못 보던 것들이 또 보였다.",
+    "text": "I hurriedly got up and looked around, then started walking.\nAt first I walked, then later I ran. Breaking through the rain and crossing the street,\nEveryone had followed the funeral procession, but I saw unfamiliar things in every corner.",
     "choices": [
       {
-        "label": "눈을 질끈 감고 쭉 직진으로 내달렸다.",
-        "next": "장면3-2"
+        "label": "I closed my eyes tight and ran straight ahead.",
+        "next": "scene3-2"
       }
     ]
   },
-  "장면3-2": {
-    
+  "scene3-2": {
     "image": "images/summer/old-dark-house.png",
-//    "image": "images/summer/white-flower.png",
-    "text": "번개가 내리친다. 헐떡이는 숨. 빗줄기는 계속 흐르고.\n몸은 축축하다. 순간, 누군가 뒷덜미를 콱, 움켜쥐는 것 같았다.",
+    "text": "Lightning strikes. Gasping breath. The rain keeps falling.\nMy body is damp. Suddenly, it felt like someone grabbed the back of my neck tightly.",
     "choices": [
       {
-        "label": "비명을 지르며 나뒹굴어졌다.",
-        "next": "장면3-3"
+        "label": "I screamed and tumbled down.",
+        "next": "scene3-3"
       }
     ]
   },
-  "장면3-3": {
-      "image": "images/summer/white-flower.png",
-    "text": "웅크린 채 엎드려서, 목을 더듬거리다가 숨을 죽였다. \n심장이 미친듯이 쿵쾅거렸다. 뒤에 뭐가 있었는지, 아무것도 없음을 확인해야 한다고 생각했지만, 좀처럼 고개를 들 수 없었다. \n꼭 압도된 것 같았다.",
+  "scene3-3": {
+    "image": "images/summer/white-flower.png",
+    "text": "Crouched down and lying prostrate, I fumbled at my neck and held my breath.\nMy heart was pounding like crazy. I thought I should confirm what was behind me, that there was nothing there, but I couldn't lift my head.\nIt was as if I was completely overwhelmed.",
     "choices": [
       {
-        "label": "고개를 푹 숙인 채로, 아무것도 할 수 없었다.",
-        "next": "장면3-3-1"
-      },
-   ]
-  },
-  "장면3-3-1":{
-      "image": "images/summer/white-flower.png",
-    "text": "빗소리만이 들리고, 알 수 없는 소름이 귀까지 돋았다. \n언니야? 작은 목소리로 물었다. 키득거리는 소리가 들렸다. \n웃음소리 같기도 한 것이 멀리서도, 가까이서도 들렸다.",
-    "choices":[
-      {
-        "label": "울음이 터져나온다.",
-        "next": "장면3-4"
+        "label": "With my head hanging low, I couldn't do anything.",
+        "next": "scene3-3-1"
       }
     ]
   },
-  "장면3-4": {
-    
-    "text": "후드득, 소리와 함께, 무언가 가까이 왔다. 덜덜 떨고 있는데,\n콕, 부리가 정수리를 쪼았다.",
-    "choices":[
-      {
-        "label": "조심스레 고개를 들자, 그 자리에는...",
-        "next": "장면3-4-1"
-      }
-    ]
-  },
-  "장면3-4-1":{
-      "image": "images/summer/crow-on-the-street.png",
-    "text": "\n터무니 없게도. 까마귀가 있었다. \n사람이 무섭지도 않나. \n까마귀가 고개를 까딱이며 저를 구경하고 있었다. \n\n부리를 딱딱거리다가 날개를 푸드덕거린다.",
+  "scene3-3-1": {
+    "image": "images/summer/white-flower.png",
+    "text": "Only the sound of rain could be heard, and an inexplicable chill ran up to my ears.\nSister? I asked in a small voice. I heard a giggling sound.\nSomething like laughter could be heard both from far away and close by.",
     "choices": [
       {
-        "label": "긴장이 풀렸다.",
-        "next": "장면3-5"
+        "label": "Tears burst out.",
+        "next": "scene3-4"
       }
     ]
   },
-  "장면3-5": {
-      "image": "images/summer/crow-on-the-street.png",
-    "text": "비틀거리면서 일어나니, 주위에는 아무것도 없었다.\n 까마귀가 다시 날개를 푸드덕거렸다. \n다시 보니 날개를 다친 것인지, 아니면 젖어 날기 싫어진 것인지.\n",
+  "scene3-4": {
+    "text": "With a flutter, something came close. I was trembling,\nand peck, a beak tapped the top of my head.",
     "choices": [
       {
-        "label": "꼭 자기를 데려가라는 듯 어슬렁거린다.",
-        "next": "장면3-6"
+        "label": "When I carefully lifted my head, there was...",
+        "next": "scene3-4-1"
       }
     ]
   },
-  "장면3-6": {
-      "image": "images/summer/crow-on-the-street.png",
-    "text": "결국 까마귀를 품에 안았다. 품안에서 따뜻한 것이 들어오니 다른 생각은 들지 않았다.\n천천히 걸음을 옮기며 까마귀를 열심히 안아들며 집으로 돌아갔다. \n까마귀는 집에 도착하니 버둥거렸다. 그리고 놓아주니, 휙, 날아가버렸다.",
+  "scene3-4-1": {
+    "image": "images/summer/crow-on-the-street.png",
+    "text": "Absurdly, there was a crow.\nWasn't it afraid of people?\nThe crow was tilting its head and looking at me.\n\nIt clicked its beak and flapped its wings.",
     "choices": [
       {
-        "label": "멀쩡한 놈이었다. 괜한 꽤병을...",
-        "next": "장면3-7"
+        "label": "The tension was released.",
+        "next": "scene3-5"
       }
     ]
   },
-  "장면3-7": {
-    
+  "scene3-5": {
+    "image": "images/summer/crow-on-the-street.png",
+    "text": "When I staggered to my feet, there was nothing around.\nThe crow flapped its wings again.\nLooking again, maybe its wing was injured, or maybe it didn't want to fly because it was wet.",
+    "choices": [
+      {
+        "label": "It wandered around as if asking me to take it with me.",
+        "next": "scene3-6"
+      }
+    ]
+  },
+  "scene3-6": {
+    "image": "images/summer/crow-on-the-street.png",
+    "text": "I ended up holding the crow in my arms. With something warm in my arms, I couldn't think of anything else.\nI walked slowly, holding the crow tightly, and returned home.\nThe crow struggled when we arrived home. And when I let it go, whoosh, it flew away.",
+    "choices": [
+      {
+        "label": "It was perfectly fine. What a pointless worry...",
+        "next": "scene3-7"
+      }
+    ]
+  },
+  "scene3-7": {
     "image": "images/summer/old-dark-house.png",
-    "text": "집으로 돌아와서는 먼저 옷을 갈아입었다.\n젖은 머리도 수건으로 잘 닦았다. \n보일러를 틀고서 웅크린 채 이불 속을 파고들었다.",
+    "text": "After returning home, I first changed my clothes.\nI also dried my wet hair well with a towel.\nI turned on the boiler and curled up, burrowing into the blankets.",
     "choices": [
       {
-        "label": "할머니가 보고 싶다.",
-        "next": "장면3-8"
+        "label": "I miss grandmother.",
+        "next": "scene3-8"
       }
     ]
   },
-  "장면3-8": {
+  "scene3-8": {
     "image": "images/summer/old-dark-house.png",
-    "text": "웅크린 채로 계속 할머니를 생각하다가, 눈을 감았다. \n그 순간만큼은 집이 불편하지도, 무섭지도 않았다.",
+    "text": "Curled up, I kept thinking about grandmother and closed my eyes.\nAt least in that moment, the house wasn't uncomfortable or scary.",
     "choices": [
       {
-        "label": "편안했다. 아주, 아주 아늑했다.",
-        "next": "장면4"
+        "label": "It was comfortable. Very, very cozy.",
+        "next": "scene4"
       }
     ]
   },
-  "장면4": {
-      "image": "images/winter/red-tea.png",
-    "text": "언니의 손끝은 붉었다. 언니를 쫓아갈 새도 없이 언니는 내 손을 쳐냈고, 행렬을 따라갔다.\n나는 내심 언니의 붉은 손끝이 계속 신경이 쓰였다. \n언니는 할머니의 마지막을 봤지. 할머니는 마지막에 아팠던 거야?\n언니는 할머니를 도운 거야?",
-    "choices": [
-       { "label": "하지만 언니는 어떤 답도 해주지 않았다.",
-        "next": "장면4-0-1"
-      },
-    ]
-  },
-  "장면4-0-1":{
+  "scene4": {
     "image": "images/winter/red-tea.png",
-    "text": " \n나는 어쩌면 언니가 할머니의 끝을 도왔더라도 괜찮다고 생각했다. \n할머니는 힘들어했으니까. 스스로 끝을 낼 수 없다면, 타인이 필요했을지도 모른다.\n하지만 언니는 생각보다 겁도 많고, 단호하질 못하니까. \n\n글쎄, 잘 모르겠다. 할머니는 말해주지 않고서 그저 부탁을 했을지도 모른다.\n",
+    "text": "Sister's fingertips were red. Before I could follow sister, she pushed my hand away and followed the procession.\nI was secretly concerned about sister's red fingertips.\nSister saw grandmother's last moments. Was grandmother in pain at the end?\nDid sister help grandmother?",
     "choices": [
       {
-        "label": "어쩐지 모습이 그려졌다.",
-        "next": "장면4-1"
+        "label": "But sister didn't give me any answers.",
+        "next": "scene4-0-1"
       }
     ]
   },
-  "장면4-1": {
+  "scene4-0-1": {
     "image": "images/winter/red-tea.png",
-    "text": "할머니는 약이라고 했을 거다. 그리고 언니에게 타달라고 했을테다.\n마지막이니까, 좋아하는 것에 타먹고 싶다고 했겠지.\n할머니는 달달한 복분자 청을 참 좋아하셨다.\n\n품도 덜 들고, 간단하다면서 이것만큼은 놓치지 않으셨다.\n우리 집에는 복분자 청이 세 통이나 있다. \n셋이서 먹기 많지 않냐는 말도 있지만 한해가 끝나기 전에 매번 동이 난다.\n",
+    "text": "I thought maybe it would have been okay if sister had helped grandmother's end.\nBecause grandmother was suffering. If she couldn't end it herself, she might have needed someone else.\nBut sister is more timid and indecisive than I thought.\n\nWell, I don't know. Grandmother might have just made a request without explaining.",
     "choices": [
       {
-        "label": "얼음물에 복분자청을 타면 정말 맛나다.",
-        "next": "장면4-2"
+        "label": "Somehow I could picture it.",
+        "next": "scene4-1"
       }
     ]
   },
-  "장면4-2": {
+  "scene4-1": {
+    "image": "images/winter/red-tea.png",
+    "text": "Grandmother would have said it was medicine. And she would have asked sister to mix it.\nSince it was the end, she would have said she wanted to take it with something she liked.\nGrandmother really loved sweet black raspberry syrup.\n\nShe said it required less effort and was simple, and she never missed making this.\nOur house has three jars of black raspberry syrup.\nSome say it's too much for three people to eat, but we always run out before the year ends.",
+    "choices": [
+      {
+        "label": "Black raspberry syrup mixed with ice water is really delicious.",
+        "next": "scene4-2"
+      }
+    ]
+  },
+  "scene4-2": {
     "image": "images/summer/hand-of-grandmother.png",
-    "text": "할머니는 복분자를 타달라고 하며, 약도 가져다 달라고 했을테다.\n그 약은 가루였을 테고, 이름이 없을 테다. \n그리고 할머니는, 직접 그 가루약을 뜯고, 마셨을 테다.\n",
+    "text": "Grandmother would have asked for black raspberry syrup to be mixed, and also asked for the medicine to be brought.\nThat medicine would have been powder, and it would have had no name.\nAnd grandmother would have opened that powder medicine herself and drunk it.",
     "choices": [
       {
-        "label": "아주 편안한 표정이었을 테다.",
-        "next": "장면5"
+        "label": "She would have had a very peaceful expression.",
+        "next": "scene5"
       }
     ]
   },
-  "장면5": {
-    
+  "scene5": {
     "image": "images/summer/hand-of-grandmother.png",
-    "text": "\n고맙다고 전해주려무나.\n그 말을 들은 것도 같은데, 확실치 않다. \n그리고 누군가 저를 마구 흔들어 깨워 눈을 떴다.\n",
+    "text": "Please tell them thank you.\nI think I heard those words, but I'm not sure.\nAnd someone shook me vigorously to wake me up and I opened my eyes.",
     "choices": [
       {
-        "label": "너 대체 여기서 뭐하고 있는 거야?",
-        "next": "장면5-1"
+        "label": "\"What on earth are you doing here?\"",
+        "next": "scene5-1"
       }
     ]
   },
-  "장면5-1": {
-    
-      "image": "IMAGE_character/ch_winter_1.png",
-    "text": "푹 젖은 채로 언니가 울고 있었다. \n\"계속 찾아다녔잖아. 행렬 끝에 있겠거니 했는데 없고, \n누가 나무 아래에 있는 걸 봤다 해서 갔더니 거기도 없고.\n한참을 찾아다녔어. 집에 갈 거면, 집에 갈 거라고! \n누구한테라도 말이라도 하던가...\"\n",
+  "scene5-1": {
+    "image": "IMAGE_character/ch_winter_1.png",
+    "text": "Sister was crying, soaking wet.\n\"I kept looking for you. I thought you'd be at the end of the procession but you weren't there,\nsomeone said they saw you under a tree so I went there but you weren't there either.\nI looked for you for a long time. If you were going home, you should have said you were going home!\nYou should have told someone...\"",
     "choices": [
       {
-        "label": "언니가 울먹이고 있었다.\n",
-        "next": "장면5-2"
+        "label": "Sister was sobbing.",
+        "next": "scene5-2"
       }
     ]
   },
-  "장면5-2": {
-      "image": "IMAGE_character/ch_winter_1.png",
-    "text": "\"... 비가 와서. 집에 왔어.\"\n\"말이라도 해야지. 나는, 나는 네가...\"\n\"비를 맞아서, 졸렸어.\"\n\"네가 없어지면, 너까지 없어지면, 나는...\"\n",
+  "scene5-2": {
+    "image": "IMAGE_character/ch_winter_1.png",
+    "text": "\"... It was raining. I came home.\"\n\"You should have said something. I, I thought you...\"\n\"I got rained on, so I was sleepy.\"\n\"If you disappear, if you disappear too, I...\"",
     "choices": [
       {
-        "label": "언니가 나를 꽉 끌어안았다.",
-        "next": "장면5-3"
+        "label": "Sister hugged me tightly.",
+        "next": "scene5-3"
       }
     ]
   },
-  "장면5-3": {
-    
+  "scene5-3": {
     "image": "images/summer/hand-of-grandmother.png",
-    "text": "나는 고민하다가 말을 조금 내뱉었다. \n\"... 언니, 나 할머니 봤어.\"\n\"무슨 소리야, 헛소리 하지마.\"\n\"고맙다고 전해달라고...\"",
+    "text": "I hesitated and then said a few words.\n\"... Sister, I saw grandmother.\"\n\"What are you talking about? Don't talk nonsense.\"\n\"She said to tell you thank you...\"",
     "choices": [
       {
-        "label": "\"그만 좀 해!\"",
-        "next": "장면5-4"
+        "label": "\"Stop it!\"",
+        "next": "scene5-4"
       }
     ]
   },
-  "장면5-4": {
-    
+  "scene5-4": {
     "image": "images/summer/hand-of-grandmother.png",
-    "text": "버럭 소리를 지르는 언니를 보고 어안이 벙벙해졌다. \n\"이제 그만 좀 해. 이제 할머니도 없잖아. 관심 끌려는 말은 그만둬!\"\n\"... 그게 아니라, 정말로.\"\n\"이젠 질렸어. 심란하게 하지 마. 제발, 이제 우리 둘이서 살아야 한다고.\"\n",
+    "text": "I was dumbfounded seeing sister yell loudly.\n\"Stop it now. Grandmother is gone now. Stop trying to get attention!\"\n\"... That's not it, really.\"\n\"I'm tired of it now. Don't upset me. Please, now we have to live together, just the two of us.\"",
     "choices": [
       {
-        "label": "\"언니, 나는... 아니, 정말로 그러니까...\"\n",
-        "next": "장면5-4-1"
+        "label": "\"Sister, I... no, really, so...\"",
+        "next": "scene5-4-1"
       }
     ]
   },
-  "장면5-4-1": {
-    
+  "scene5-4-1": {
     "image": "images/summer/hand-of-grandmother.png",
-    "text": "\"집에는 곧장 온 거야? 왜 비를 그렇게 맞고선.\"\n\"어떤 아주머니가, 집에 가라고 하셔서... 차도 주시고.\"\n\"... 누가?\"\n\"그 왜... 작설차라고 막 주셨는데...\"\n\"대체 누가? 오늘 마을 사람들이 다 장례식을 왔잖아.\"",
+    "text": "\"Did you come straight home? Why were you so soaked in the rain?\"\n\"Some lady told me to go home... and gave me tea.\"\n\"... Who?\"\n\"You know... she kept giving me jakseol tea...\"\n\"Who exactly? All the village people came to the funeral today.\"",
     "choices": [
       {
-        "label": "\"아니야, 한 분이 계셨어...\"",
-        "next": "장면5-5"
+        "label": "\"No, there was one person...\"",
+        "next": "scene5-5"
       }
     ]
   },
-  "장면5-5": {
-    
-      "image": "IMAGE_character/ch_winter_1.png",
-    "text": "헛소리라는 듯, 또 관심받으려 한다는 듯 언니가 질린 듯 얼굴을 구겼다. \"우리 마을에 네가 모르는 사람 있어?\"\n\"... 어떤 분이, 놀러 오셨거나. 아니면 다른 집 친척일 수도 있으니까.\"\n\"없어. 없어! 아무도 없어. 그럴 거라면 이 산골에 차라도 있겠지. 차 한대도 없이 누가 와?\"\n\"아니, 정말이야. 진짜인데. 작설차도 주시고...\"",
+  "scene5-5": {
+    "image": "IMAGE_character/ch_winter_1.png",
+    "text": "Sister looked disgusted as if it was nonsense, as if I was trying to get attention again. \"Is there anyone in our village you don't know?\"\n\"... Someone might have come to visit. Or it could be a relative from another house.\"\n\"There isn't. There isn't! Nobody's there. If that were the case, there would at least be a car in this mountain village. Who would come without a single car?\"\n\"No, really. It's true. She gave me jakseol tea and...\"",
     "choices": [
       {
-        "label": "\"제발! 그냥. 그냥 솔직하게 말해줘. 응? 서하야, 제발...\"",
-        "next": "장면5-6"
+        "label": "\"Please! Just. Just tell me honestly. Okay? Seoha, please...\"",
+        "next": "scene5-6"
       }
     ]
   },
-  "장면5-6": {
-      "image": "IMAGE_character/ch_winter_1.png",
-    "text": "언니의 얼굴이 꽤 절박해 보여서, 결국 입을 다물 수 밖에 없었다. \"미안해. 다 거짓말이야.\"\n\"... 그래, 괜찮아. 괜찮아 서하야.\"\n\n화를 삭힌 언니가 다시 나를 꽉 끌어안았다.",
+  "scene5-6": {
+    "image": "IMAGE_character/ch_winter_1.png",
+    "text": "Sister's face looked quite desperate, so I had no choice but to close my mouth. \"Sorry. It's all lies.\"\n\"... Yes, it's okay. It's okay, Seoha.\"\n\nSister, having calmed her anger, hugged me tightly again.",
     "choices": [
       {
-        "label": "그때, 방 구석에서 무언가 움직이는 걸 보았다.",
-        "next": "장면5-7"
+        "label": "Then, I saw something moving in the corner of the room.",
+        "next": "scene5-7"
       }
     ]
   },
-
-  
-  "장면5-7": {
-    
+  "scene5-7": {
     "image": "images/summer/hand-of-grandmother.png",
-    "text": "느릿, 느릿하게. 어떤 그림자같은 것이. \n조용하게, 집을 나선다. \n그리고 대문이 덜컹이는 소리가 나고, 비바람이 몰아치고.\n",
+    "text": "Slowly, slowly. Something like a shadow.\nQuietly, leaves the house.\nAnd the gate creaks, and the rain and wind blow.",
     "choices": [
       {
-        "label": "까마귀가 운다.",
-        "next": "장면5-8"
+        "label": "A crow cries.",
+        "next": "scene5-8"
       }
     ]
   },
-
-   "장면5-8": {
-    
+  "scene5-8": {
     "image": "images/summer/hand-of-grandmother.png",
-    "text": "멀리, 떠나간다.\n어쩐지 그게, 할머니였다는 생각을 했다.",
+    "text": "Far away, departing.\nSomehow, I thought that was grandmother.",
     "choices": [
       {
-        "label": "터무니 없게도.",
-        "next": "장면6"
+        "label": "Absurdly.",
+        "next": "scene6"
       }
     ]
   },
-  "장면6": {
-    
+  "scene6": {
     "image": "images/summer/view-of-town.png",
-    "text": "\n그 뒤로 우리는 서로 의지하며 살았고, 마을 사람들도 도와주었다. \n하지만 언니에게 더는 말할 수 없었다. 나는 종종 이상한 걸 봤지만, 누구에게도 말하지 않았다. \n\n더는 언니에게 말할 수 없는 부분들이 늘어나며, 점점 거리가 느껴졌다.\n언니가 날 사랑하는 건 안다. 우린 하나뿐인 가족이니까.\n하지만...\n\n",
+    "text": "After that, we lived depending on each other, and the village people also helped us.\nBut I could no longer tell sister. I often saw strange things, but I didn't tell anyone.\n\nAs the parts I couldn't tell sister increased, I gradually felt distance.\nI know sister loves me. We're each other's only family.\nBut...",
     "choices": [
       {
-        "label": "하지만...",
-        "next": "장면6-1"
+        "label": "But...",
+        "next": "scene6-1"
       }
     ]
   },
-  "장면6-1": {
+  "scene6-1": {
     "image": "images/summer/view-of-town.png",
-    "text": "말할 수 없다는 건 괴롭다. \n홀로 고향에 내려와서는 한참이나 생각에 빠졌다. \n더는 내게 보이는 것을 부정할 수 없었다.\n",
+    "text": "Not being able to speak is painful.\nComing down to the hometown alone, I was lost in thought for a long time.\nI could no longer deny what I see.",
     "choices": [
       {
-        "label": "언니와 거리를 두자.",
-        "next": "장면6-2"
+        "label": "Let me distance myself from sister.",
+        "next": "scene6-2"
       }
     ]
   },
-  "장면6-2": {
-      "image": "IMAGE_character/ch_winter.png",
-    "text": "그래, 결심했다. 다만 영원히는 아니다.\n내가 내 눈에 보이는 것이 뭔지, 내가 겪은 것이 무엇인지 정말로 알 때까지. \n그리고, 언젠가, 그걸 언니에게도 이야기 할 수 있을 때까지는...\n",
+  "scene6-2": {
+    "image": "IMAGE_character/ch_winter.png",
+    "text": "Yes, I decided. But not forever.\nUntil I truly know what I see with my eyes, what I've experienced.\nAnd someday, until I can tell sister about it...",
     "choices": [
       {
-        "label": "언니와 멀어져야겠다.",
-        "next": "장면6-3"
+        "label": "I must distance myself from sister.",
+        "next": "scene6-3"
       }
     ]
   },
-  "장면6-3": {
+  "scene6-3": {
     "image": "IMAGE_character/ch_summer.png",
-    "text": "그렇다고 언니가 싫은 건 아니다. \n영원한 이별도 아니다.\n다만 나를 위해, 서로를 위해.\n\n나는 나를 규명해야 하는 것이다.\n",
+    "text": "That doesn't mean I dislike sister.\nIt's not a permanent farewell either.\nJust for me, for both of us.\n\nI must define myself.",
     "choices": [
       {
-        "label": "이야기가 끝났습니다.",
-        "next": "장면7"
+        "label": "The story has ended.",
+        "next": "scene7"
       }
     ]
   },
-  "장면7": {
+  "scene7": {
     "text": "",
     "choices": [
-       {
-        "label": "종료하기",
+      {
+        "label": "End",
         "next": "__END__"
       },
       {
-        "label": "시작 메뉴로 가기",
+        "label": "Go to main menu",
         "next": "__MENU__"
       },
       {
-        "label": "첫 장면으로 돌아가기",
-        "next": "장면1"
+        "label": "Return to first scene",
+        "next": "scene1"
       }
     ]
   }
