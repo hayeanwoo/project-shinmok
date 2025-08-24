@@ -1,347 +1,346 @@
 const story = {
-  "장면1": {
+  "scene1": {
     "image": "IMAGE_character/ch_summer.png",
-    "text": "동생은 종종 이상한 생각을 하고는 했다.\n상상력이 풍부한 아이였다.\n 성년이 된 걸 축하한다고 메세지를 보냈지만 그 애는 답장이 한참이나 없었다.\n그러다가 돌아온 답은, 메세지 한 통이었다. \"당분간 연락하지 않고 싶어. 언제까지일지는 나도 몰라.\"\n 단순한 말이었지만 어째선지, 그 말이 꼭. 어쩌면 아주 평생, 영영. 연락하고 싶지 않다는 것으로 보였다.",
+    "text": "My younger sibling often had strange thoughts.\nThey were a child with a rich imagination.\nI sent a message congratulating them on becoming an adult, but there was no reply for a long time.\nThen the response that came back was just one message: \"I don't want to contact you for a while. I don't know how long it will be.\"\nIt was a simple statement, but somehow, those words seemed like... maybe forever, for their entire life. That they never wanted to contact me again.",
     "choices": [
       {
-        "label": "동생과의 갈등은 꽤 오래됐다. 삐그덕거림은 점점 더 커져만 갔고.",
-        "next": "장면1-1"
+        "label": "The conflict with my sibling had been going on for quite a while. The friction kept growing.",
+        "next": "scene1-1"
       }
     ]
   },
-  "장면1-1": {
+  "scene1-1": {
     "image": "images/summer/white-flower.png",
-    "text": "고칠 법도, 되돌릴 법도 모르겠으며 이렇게 벌어지게 된 이유도 사실은 모르겠다\n하지만 시작점은 안다.\n할머니가 돌아가신 그 여름.",
+    "text": "I don't know how to fix it or turn it back, and I honestly don't know why it came to this.\nBut I know the starting point.\nThat summer when grandmother passed away.",
     "choices": [
       {
-        "label": "분명, 그게 모든 것의 시작이었다.",
-        "next": "장면1-2"
+        "label": "Surely, that was the beginning of everything.",
+        "next": "scene1-2"
       }
     ]
   },
-  "장면1-2": {
+  "scene1-2": {
     "image": "IMAGE_character/ch_winter.png",
-    "text": "... ...\n... ...\n그렇다고 해서, 돌아가신 할머니가 다시 살아오실 것도 아니고.\n괜히 생각해봤자 기분만 나빠진다.",
+    "text": "... ...\n... ...\nEven so, grandmother won't come back to life.\nThere's no point in thinking about it, it only makes me feel worse.",
     "choices": [
       {
-        "label": "그렇지만 이제 동생의 물건은, 그 고향 집에밖에 남아있지 않다.",
-        "next": "장면1-3"
+        "label": "But now, my sibling's belongings are only left in that hometown house.",
+        "next": "scene1-3"
       }
     ]
   },
-  "장면1-3": {
+  "scene1-3": {
     "image": "images/summer/old-dark-house.png",
-    "text": "생각해보면 말이다.\n그 집에 내가 볼 일이 있었다. 너무 오래 가지 않았고, 또 관리해야 할 것도 있었고...\n어쩔 수 없네.",
+    "text": "Come to think of it.\nI had business at that house. I hadn't been there for too long, and there were things that needed managing...\nI have no choice.",
     "choices": [
       {
-        "label": "그 집에 돌아가봐야겠다.",
-        "next": "장면2"
+        "label": "I should go back to that house.",
+        "next": "scene2"
       }
     ]
   },
-  "장면2": {
-    
+  "scene2": {
     "image": "images/winter/street-full-over-snow.png",
-    "text": "마을은 변하지 않았다.\n다만 사람들이 거의 떠나 아주 조용했다.\n눈으로 뒤덮인 마을에, 살아있는 것이라곤 저 뿐인것 같았다.",
+    "text": "The village hadn't changed.\nExcept that most people had left, making it very quiet.\nIn the snow-covered village, it seemed like I was the only living thing there.",
     "choices": [
       {
-        "label": "집에 들어간다.",
-        "next": "장면2-1"
+        "label": "I enter the house.",
+        "next": "scene2-1"
       }
     ]
   },
-  "장면2-1": {
-      "image": "images/winter/crow-with-snow.png",
-    "text": "오래 방치된 집에서는 꼭 무너질 듯 눈이 한가득 쌓여있었다.\n마당 한 구석에는 복분자 나무가 있었다. \n마루에는 누군가 두고 간 듯, 찻잎이 놓여있다. 언제 두고 가신걸까?\n지붕 위에 까마귀가 앉아 있다. 언제 온 지도 몰랐는데.",
-    "choices": [
-      {
-        "label": "복분자 나무를 살펴 본다",
-        "next": "장면3-1"
-      }
-    ]
-  },
-  "장면3-1": {
-    "image": "images/winter/red-tea.png",
-    "text": "할머니는 복분자를 좋아하셨다.\n이 근방에는 꽤 좋은 복분자가 나서, 다른 곳과는 또 다르다고.\n어려서부터 할머니가 담근 복분자청을 자주 마셨다. 따뜻한 물에 조금 넣으면 그게 차가 되었다.\n늘 식사를 마치면 타주시곤 했었지...",
-    "choices": [
-      {
-        "label": "다음",
-        "next": "장면3-2"
-      }
-    ]
-  },
-  "장면3-2": {
-    "image": "images/winter/red-tea.png",
-    "text": "복분자 나무는 메말라 있다.\n손끝으로 나무를 메만졌다.\n할머니는 마지막 순간까지도 복분자를 마시고 싶다고 하셨다.\n주위를 둘러보았다. 아직 남은 것들이 있다.",
-    "choices": [
-      {
-        "label": "작설차를 열어본다.",
-        "next": "장면4"
-      }
-    ]
-  },
-  "장면4": {
-    "image": "images/winter/pot-of-tea.png",
-    "text": "곱게 포장된 것을 열어보니, 다행히 안에 곰팡이는 피지 않았다.\n뚜껑을 열자마자 고운 향이 퍼져나간다. 손으로 으깨어 즙을 낸 찻잎은 늘 진한 향이 났다.\n이렇게 된 김에,",
-    "choices": [
-      {
-        "label": "한번 마셔볼까... 싶었다.",
-        "next": "장면4-1"
-      }
-    ]
-  },
-  "장면4-1": {
-     "image": "images/winter/pot-of-tea.png",
-    "text": "하지만 끓일 곳이 없는 걸. 수도도 끊긴지 오래인 곳이다. 눈을 퍼서 끓일 수도 없고. 어쩔 수 없네.",
-    "choices": [
-      {
-        "label": " 잘 챙겨두어야지. ",
-        "next": "장면4-2"
-      }
-    ]
-  },
-  "장면4-2": {
-     "image": "images/winter/pot-of-tea.png",
-    "text": "찻잎에 한참이나 코를 두고 생각에 잠겼다.\n그 여름, 사실 나는 동생이 무서웠다. \n나를 의심해서가 아니라-. 그 애가 바라보는 것, 떠올리는 것, 그리고...\n겪었다고 말하는 것들.\n무엇보다-. 내가. \n그 애와 함께 있을 때 본 것들이 두려웠다.",
-    "choices": [
-      {
-        "label": "고개를 젓는다.",
-        "next": "장면4-3"
-      }
-    ]
-  },
-  "장면4-3": {
-     "image": "images/winter/pot-of-tea.png",
-    "text": "그 애는 조금... 특이했다. \n난 그게 무서웠다. 그래서 더 터무니 없이 날카롭게 굴었을 지도 모른다.\n그래, 나는 그 애에게 못되게 굴었다. 계속 헛된 말을 한다고, 쓸데없이 거짓말을 해서...\n나를 심란하게 하는 거라고. 믿고 싶었다. \n하지만...",
-    "choices": [
-      {
-        "label": "정말로 그게, 다 거짓말이었을까?",
-        "next": "장면5"
-      }
-    ]
-  },
-  "장면5": {
-     "image": "images/winter/pot-of-tea.png",
-    "text": "차 뚜껑을 잘 닫고 고개를 내저었다. 아니, 역시 바보같은 생각이다. 그만두자. \n그 순간, 까마귀가 까악-. 울어댄다.",
-    "choices": [
-      {
-        "label": "뒤를 돌아보며 지붕 위를 올려다보았다.",
-        "next": "장면5-1"
-      }
-    ]
-  },
-  "장면5-1": {
+  "scene2-1": {
     "image": "images/winter/crow-with-snow.png",
-    "text": "새하얀 구름이 깔린 하늘, 눈이 내리고 있다.\n지붕 위로 천천히 눈이 내리고, 까마귀는 날개를 푸드덕거리면서 눈을 털 뿐, 떠나지 않았다.\n꼭 나를 기다려온 것 같았다. 아주 오래...",
+    "text": "The long-abandoned house seemed ready to collapse, with snow piled high everywhere.\nIn one corner of the yard was a black raspberry tree.\nOn the porch, there were tea leaves left behind by someone. When did they leave them there?\nA crow is sitting on the roof. I didn't notice when it arrived.",
     "choices": [
       {
-        "label": "까악",
-        "next": "장면5-2"
+        "label": "I examine the black raspberry tree.",
+        "next": "scene3-1"
       }
     ]
   },
-  "장면5-2": {
-     "image": "images/winter/crow-with-snow.png",
-    "text": "동생은, 그 애는 희한했다.\n남들과는 달랐다. 너무 달랐다.\n그 애는 까마귀를 좋아했다. 어릴 때는 무서워했으면서.\n언제부턴가 까마귀를 좋아했다...",
+  "scene3-1": {
+    "image": "images/winter/red-tea.png",
+    "text": "Grandmother loved black raspberries.\nGood black raspberries grew in this area, different from other places.\nSince childhood, I often drank the black raspberry syrup grandmother made. Adding a little to warm water made it into tea.\nShe always made it for us after meals...",
     "choices": [
       {
-        "label": "그날에도 까마귀가 울어댔어. 아주 오래...",
-        "next": "장면5-3"
+        "label": "Next",
+        "next": "scene3-2"
       }
     ]
   },
-  "장면5-3": {
-     "image": "images/winter/crow-with-snow.png",
-    "text": "비밀 하나를 말해보자.\n정말로 바보같은 일이라고, 내가 착각한 거라고, 어린 마음에 터무니 없이 휘둘렸던 거라고 생각했지만.",
+  "scene3-2": {
+    "image": "images/winter/red-tea.png",
+    "text": "The black raspberry tree is withered.\nI touched the tree with my fingertips.\nGrandmother said she wanted to drink black raspberry tea until her last moment.\nI looked around. There are still things left.",
+    "choices": [
+      {
+        "label": "I open the fine tea leaves.",
+        "next": "scene4"
+      }
+    ]
+  },
+  "scene4": {
+    "image": "images/winter/pot-of-tea.png",
+    "text": "Opening the carefully packaged tea, fortunately there was no mold inside.\nAs soon as I opened the lid, a fine fragrance spread. Tea leaves crushed by hand and juiced always had a rich aroma.\nSince I'm here,",
+    "choices": [
+      {
+        "label": "I thought I might try drinking some...",
+        "next": "scene4-1"
+      }
+    ]
+  },
+  "scene4-1": {
+    "image": "images/winter/pot-of-tea.png",
+    "text": "But there's nowhere to boil it. The water has been cut off for a long time. I can't even collect snow to boil. There's no choice.",
+    "choices": [
+      {
+        "label": "I should keep it safe.",
+        "next": "scene4-2"
+      }
+    ]
+  },
+  "scene4-2": {
+    "image": "images/winter/pot-of-tea.png",
+    "text": "I held my nose to the tea leaves for a long time, lost in thought.\nThat summer, I was actually afraid of my sibling.\nNot because I doubted them—but because of what they looked at, what they remembered, and...\nThe things they said they experienced.\nMost of all—I was.\nAfraid of the things I saw when I was with them.",
+    "choices": [
+      {
+        "label": "I shake my head.",
+        "next": "scene4-3"
+      }
+    ]
+  },
+  "scene4-3": {
+    "image": "images/winter/pot-of-tea.png",
+    "text": "My sibling was a bit... unusual.\nI was scared of that. So I might have been unreasonably harsh.\nYes, I was mean to them. I kept saying they were talking nonsense, making up useless lies...\nThat they were disturbing me. I wanted to believe that.\nBut...",
+    "choices": [
+      {
+        "label": "Was all of that really lies?",
+        "next": "scene5"
+      }
+    ]
+  },
+  "scene5": {
+    "image": "images/winter/pot-of-tea.png",
+    "text": "I closed the tea lid properly and shook my head. No, it's a foolish thought after all. Let me stop.\nAt that moment, the crow caws loudly.",
+    "choices": [
+      {
+        "label": "I turn around and look up at the roof.",
+        "next": "scene5-1"
+      }
+    ]
+  },
+  "scene5-1": {
+    "image": "images/winter/crow-with-snow.png",
+    "text": "Pure white clouds spread across the sky, snow is falling.\nSnow slowly falls on the roof, and the crow just flaps its wings to shake off the snow, but doesn't fly away.\nIt seemed like it had been waiting for me. For a very long time...",
+    "choices": [
+      {
+        "label": "Caw",
+        "next": "scene5-2"
+      }
+    ]
+  },
+  "scene5-2": {
+    "image": "images/winter/crow-with-snow.png",
+    "text": "My sibling was strange.\nDifferent from others. Too different.\nThey liked crows. Even though they used to be scared of them when young.\nAt some point, they started liking crows...",
+    "choices": [
+      {
+        "label": "That day too, a crow was cawing. For a very long time...",
+        "next": "scene5-3"
+      }
+    ]
+  },
+  "scene5-3": {
+    "image": "images/winter/crow-with-snow.png",
+    "text": "Let me tell you a secret.\nI thought it was really foolish, that I was mistaken, that I was unreasonably swayed by childish feelings, but.",
     "choices": [
       {
         "label": "......",
-        "next": "장면5-4"
+        "next": "scene5-4"
       }
     ]
   },
-  "장면5-4": {
-     "image": "images/winter/crow-with-snow.png",
-    "text": "나는 사실 그 날, 동생이, 동생의 곁에 있던, 동생을, ...그러니까.",
+  "scene5-4": {
+    "image": "images/winter/crow-with-snow.png",
+    "text": "I actually, that day, my sibling, who was beside my sibling, my sibling... I mean.",
     "choices": [
       {
-        "label": "나는 어쩌면 알았을 지도 모른다.",
-        "next": "장면5-5"
+        "label": "I might have known, perhaps.",
+        "next": "scene5-5"
       }
     ]
   },
-  "장면5-5": {
-     "image": "images/winter/crow-with-snow.png",
-    "text": "동생이 한 말이 전부 진짜였다는 걸.\n그 애가 말하고 겪은 게 전부 사실이라는 걸.\n받아들일 수 없던 것 뿐이지.",
+  "scene5-5": {
+    "image": "images/winter/crow-with-snow.png",
+    "text": "That everything my sibling said was real.\nThat everything they talked about and experienced was true.\nI just couldn't accept it.",
     "choices": [
       {
-        "label": "동생은 정말로 그날...",
-        "next": "장면5-6"
+        "label": "My sibling really, that day...",
+        "next": "scene5-6"
       }
     ]
   },
-  "장면5-6": {
-     "image": "images/winter/crow-with-snow.png",
-    "text": "... 사과를 할까.\n사과를 할까. 이야기를 해볼까.\n그날, 사실은 아고 있었다고.\n무서워서 외면하려고 했지만.",
+  "scene5-6": {
+    "image": "images/winter/crow-with-snow.png",
+    "text": "... Should I apologize?\nShould I apologize? Should I try talking?\nThat day, I actually knew.\nI was scared and tried to turn away, but.",
     "choices": [
       {
-        "label": "사실은...",
-        "next": "장면5-7"
+        "label": "Actually...",
+        "next": "scene5-7"
       }
     ]
   },
-  "장면5-7": {
-     "image": "images/winter/crow-with-snow.png",
-    "text": "나는 그 여름, 말할 용기가 없었다.\n받아들일 수 없었다.\n정말로... 정말로.... \n무서웠던 거다. \n",
+  "scene5-7": {
+    "image": "images/winter/crow-with-snow.png",
+    "text": "That summer, I didn't have the courage to speak.\nI couldn't accept it.\nReally... really....\nI was scared.",
     "choices": [
       {
-        "label": "결심했다",
-        "next": "장면6"
+        "label": "I made up my mind.",
+        "next": "scene6"
       }
     ]
   },
-  "장면6": {
-"image": "IMAGE_character/ch_summer.png",
-    "text": "동생에게 연락을 하기로 했으나 어떻게 말해야 할지 몰라 오래 고심하다가, 까무룩 잠에 들어버렸다.\n간만에 꿈을 꿨다. 희한한 일이지, 나는 거의 꾸지 않는데...\n온 세상이 하얗게 물들어 있었다. 온통 눈으로 뒤덮혀, 소리도 빛도 없이.\n모두 한 빛으로만...",
+  "scene6": {
+    "image": "IMAGE_character/ch_summer.png",
+    "text": "I decided to contact my sibling, but not knowing what to say, I worried for a long time and then fell asleep.\nI had a dream for the first time in a while. Strange thing, I rarely dream...\nThe whole world was dyed white. Covered entirely in snow, without sound or light.\nEverything in just one color...",
     "choices": [
       {
-        "label": "나는 계속해서 걷는다. 계속해서... ",
-        "next": "장면6-1"
+        "label": "I keep walking. Keep walking...",
+        "next": "scene6-1"
       }
     ]
   },
-  "장면6-1": {
-    "text": "그러다가, 먼 곳에서 우렁찬 소리와 함께, 우지끈 소리가 들렸다...",
+  "scene6-1": {
+    "text": "Then, from far away, along with a resounding sound, I heard a cracking noise...",
     "choices": [
       {
-        "label": "저게 뭐지?",
-        "next": "장면6-2"
+        "label": "What is that?",
+        "next": "scene6-2"
       }
     ]
   },
-  "장면6-2": {
+  "scene6-2": {
     "image": "IMAGE_character/ch_winter.png",
-    "text": "나는 달려갔다. 꿈이라 그런지, 눈 밭인데도 넘어지질 않았다.\n눈 위를 계속해서 내달렸다. \n흰 눈밭은 끝이 나지를 않는데, 연기가 피어오르는 곳이 있었다.\n흰 연기가... 쓰러진 나무에서 나고 있었다.",
+    "text": "I ran. Maybe because it was a dream, I didn't fall even though it was a snowfield.\nI kept running over the snow.\nThe white snowfield seemed endless, but there was a place where smoke was rising.\nWhite smoke... was coming from a fallen tree.",
     "choices": [
       {
-        "label": "나무에게 다가갔다.",
-        "next": "장면6-3"
+        "label": "I approached the tree.",
+        "next": "scene6-3"
       }
     ]
   },
-  "장면6-3": {
+  "scene6-3": {
     "image": "images/winter/broken-tree.png",
-    "text": "나무는 산산조각 나 있었다. \n산산조각 난 채로... \n\n오래되고 말라비틀어진 나무 뿌리 사이로, 무언가 본 것도 같다.\n아주 오래된 슬픔 같기도, 어린 얼굴 같기도 한 무언가가 스쳐지나갔다.",
+    "text": "The tree was shattered to pieces.\nShattered to pieces...\n\nBetween the old, dried and twisted tree roots, I seemed to see something.\nSomething that seemed like very old sadness, or like a young face, flashed by.",
     "choices": [
       {
-        "label": "하지만 분명치 않았다.",
-        "next": "장면6-4"
+        "label": "But it wasn't clear.",
+        "next": "scene6-4"
       }
     ]
   },
-  "장면6-4": {
+  "scene6-4": {
     "image": "images/winter/broken-tree.png",
-    
-    "text": "그런데 어째서일까. 나는 꼭 그게 내가 아주 오래 잊으려 한 무언가라는 생각이 들었다.\n아주 오래, 잊으려 한 무언가. 외면했던 무언가. \n그리고 그 아래에 어린 아이의 얼굴이.",
+    "text": "But why was it? I had the feeling that it was something I had tried to forget for a very long time.\nSomething I had tried to forget for a very long time. Something I had turned away from.\nAnd underneath it, a child's face.",
     "choices": [
       {
-        "label": "그 얼굴이 꼭.",
-        "next": "장면6-5"
+        "label": "That face seemed like.",
+        "next": "scene6-5"
       }
     ]
   },
-  "장면6-5": {
+  "scene6-5": {
     "image": "images/winter/broken-tree.png",
-    
-    "text": "어린 시절의 나 같기도.\n그 애의 얼굴 같기도...",
+    "text": "It might have been me as a child.\nIt might have been their face...",
     "choices": [
       {
-        "label": "모르겠다.",
-        "next": "장면6-6"
+        "label": "I don't know.",
+        "next": "scene6-6"
       }
     ]
   },
-  "장면6-6": {
-    
-    "text": "눈을 뜨니 사방이 어두컴컴했다. 밤이 되어버린 것이다.\n내일 다시 서울로 올라가야지.\n그리고. \n그리고 어쩌면, 다시.",
+  "scene6-6": {
+    "text": "I opened my eyes and everything around was dark. It had become night.\nI should go back to Seoul tomorrow.\nAnd.\nAnd perhaps, again.",
     "choices": [
       {
-        "label": "동생과 다시...",
-        "next": "장면7"
+        "label": "With my sibling again...",
+        "next": "scene7"
       }
     ]
   },
-  "장면7": {
-     "image": "images/winter/pot-of-tea.png",
-    "text": "작설차를 끓였다. \n기억보다도 더 선명하고, 진한 향이다.",
+  "scene7": {
+    "image": "images/winter/pot-of-tea.png",
+    "text": "I brewed the fine tea.\nIt has an even more vivid and rich aroma than I remembered.",
     "choices": [
       {
-        "label": "가만히 앉아 동생에게 메일을 쓰기 시작했다. ",
-        "next": "장면7-1"
+        "label": "I sat quietly and started writing an email to my sibling.",
+        "next": "scene7-1"
       }
     ]
   },
-  "장면7-1": {
-     "image": "images/winter/pot-of-tea.png",
-    "text": "어쩌면 우리는 다시 연락을 할지도 모른다. \n다시 가족이 될 지도 모른다.",
+  "scene7-1": {
+    "image": "images/winter/pot-of-tea.png",
+    "text": "Perhaps we might contact each other again.\nPerhaps we might become family again.",
     "choices": [
       {
-        "label": "다시, 서로가 서로에게 중해질지도 모른다. ",
-        "next": "장면7-2"
+        "label": "Perhaps we might become important to each other again.",
+        "next": "scene7-2"
       }
     ]
   },
-  "장면7-2": {
-     "image": "images/winter/pot-of-tea.png",
-    "text": "그게 아니라도 좋다.",
+  "scene7-2": {
+    "image": "images/winter/pot-of-tea.png",
+    "text": "Even if not, that's fine.",
     "choices": [
       {
-        "label": "적어도 우리는 다시 서로를 마주볼 수 있을 테니까. ",
-        "next": "장면7-3"
+        "label": "At least we'll be able to face each other again.",
+        "next": "scene7-3"
       }
     ]
   },
-  "장면7-3": {
+  "scene7-3": {
     "image": "images/winter/broken-tree.png",
-    "text": "이제야 알겠다.\n모든 것에는 시작점이, 그리고 땅에 파묻혀 보이지 않을 뿐, 존재하는 뿌리가 있다.",
+    "text": "Now I understand.\nEverything has a starting point, and roots that exist buried in the ground, invisible but real.",
     "choices": [
       {
-        "label": "우리는 그 뿌리를 들여다봐야 한다.",
-        "next": "장면7-4"
+        "label": "We must look into those roots.",
+        "next": "scene7-4"
       }
     ]
   },
-  "장면7-4": {
-    "image": "images/winter/broken-tree.png",
-    "text": "",
-    "choices": [
-      {"label":"그 뿌리에는,", "next":"장면7-5"}
-    ]
-  },
-  "장면7-5": {
+  "scene7-4": {
     "image": "images/winter/broken-tree.png",
     "text": "",
     "choices": [
       {
-        "label":"그토록 기다리던 해답이 있을지도 모른다.", 
-        "next":"장면8"
+        "label": "In those roots,",
+        "next": "scene7-5"
       }
     ]
   },
-  "장면8": {
-   "text": "",
+  "scene7-5": {
+    "image": "images/winter/broken-tree.png",
+    "text": "",
     "choices": [
       {
-        "label": "종료하기",
+        "label": "There might be the answers we've been waiting for so long.",
+        "next": "scene8"
+      }
+    ]
+  },
+  "scene8": {
+    "text": "",
+    "choices": [
+      {
+        "label": "End",
         "next": "__END__"
       },
       {
-        "label": "시작 메뉴로 가기",
+        "label": "Go to main menu",
         "next": "__MENU__"
       },
       {
-        "label": "첫 장면으로 돌아가기",
-        "next": "장면1"
+        "label": "Return to first scene",
+        "next": "scene1"
       }
     ]
   }
